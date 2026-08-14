@@ -1,0 +1,243 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Dr. Marcelo Errecalde
+  tagline: Professor and researcher
+  avatar: marcelo.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: merrecalde@gmail.com
+  phone: +54 (0266) 4520300 - Int(5260)
+  timezone: America/Argentina # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  #website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  #linkedin: alandoe
+  #xing: alandoe
+  github: merrecalde
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  #mastodon: # Please include your full Mastodon link here.
+  #hackerrank: # Please provide your HackerRank username.
+  #leetcode: # Please provide your LeetCode username.
+  #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  #languages:
+  #  title: Languages
+  #  info:
+  #  - idiom: English
+  #    level: Native
+
+  #- idiom: French
+  #    level: Professional
+
+  #- idiom: Spanish
+  #    level: Professional
+
+  interests:
+    title: Interests
+    info:
+    - item: Climbing
+      link:
+
+
+    - item: Snowboarding
+      link:
+
+
+    - item: Cooking
+      link:
+
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Professor and Researcher at the National University of San Luis (UNSL) and the National University
+    of Southern Patagonia (UNPA), Argentina. He is the professor in charge of postgraduate courses at
+    the University of Buenos Aires (UBA), the National University of La Plata (UNLP), UNSL, UNPA,
+    the Inter-American Open University (UAI), and the University of Azuay (Ecuador) on topics related
+    to Artificial Intelligence (AI), Multi-Agent Systems (MAS), Machine Learning (ML), Text and Web
+    Mining, and Natural Language Processing (NLP). With 30 years of experience as a researcher in AI
+    areas such as ML, MAS, and NLP, he has actively participated with leading AI groups in Spain,
+    Mexico, Germany, Austria, and Greece. He is the Director of the Laboratory for Research and
+    Development in Computational Intelligence (LIDIC) and the Institute of Computational, Cognitive,
+    Psychological, and Social Sciences (ICOPS) at UNSL. Currently, his research focuses on the early
+    detection of at-risk individuals (depression, addictions, etc.) online. This research has resulted in some
+    of the state-of-the-art systems for the early detection of depression, anorexia, and gambling addiction
+    on the web. He has led several projects funded by the Sadosky Foundation in collaboration with
+    companies and government agencies, involving the use of AI and NLP techniques in industry and
+    government administrative processes.
+education:
+  title: Education
+  info:
+  - degree:  PhD in Computer Science. 
+    university: Universidad Nacional del Sur
+    time: 2000 - 2004
+    details: |
+     
+  - degree: BSc in Computer Science.  
+    university: Universidad Nacional de San Luis
+    time: 1995 
+    details: |
+     
+
+experiences:
+  title: Teaching
+  info:
+  - role:
+    time: 
+    company: 
+    details: |
+      
+      - Tenured Full-time Associate Professor (UNSL, 2015 Present)
+      - Tenured Part-time Assistant Professor (UNPA-UACO, 2010 Present)
+
+      Responsible for teaching the following undergraduate courses: Artificial Intelligence, Intelligent
+      Systems, Foundations of Artificial Intelligence, Agents and Multi-agent Systems, Machine Learning,
+      Data Mining
+
+      Postgraduate Courses: I have taught 36 postgraduate courses on the following topics: Machine
+      Learning and Data Mining (UNSL and UNPA), Agents and Multi-agent Systems (UNPA, UNLP,
+      UNSL), Advanced Topics in Text and Web Mining (UBA), Data Mining (UNSL), Text Mining
+
+      (UNSL, UNPA, UNLP), Models and Architectures for Artificial Intelligent Agents (UNSL),
+      Information Systems in Agriculture (UNSL), Data Analysis in Social Networks (University of the
+      Azuay, Ecuador), Natural Language Processing (Universidad Abierta Interamericana, UAI)
+
+certifications:
+  title: Research
+  list:
+  - name: 
+    start: 
+    end: 
+    organization: 
+    credentialid: 
+    credentialurl: 
+    credentialname: 
+    details: |
+      Since April 1987, I have participated uninterruptedly as a member of 25 research projects, serving as
+      Director for 4 of these projects and Co-director for 2.
+
+      - Director: Laboratorio de Investigación y Desarrollo en Inteligencia Computacional (LIDIC),
+        Faculty of Physical, Mathematical and Natural Sciences, Universidad Nacional de San Luis.
+      - Creator and Director: Instituto de Ciencias Computacionales, Cognitivas, Psicológicas y
+        Sociales (ICOPS), Universidad Nacional de San Luis.
+
+      Research Interests: Artificial Intelligence, Intelligent Systems, Multi-agent Systems, Machine
+      Learning, Text Mining, Natural Language Processing and Robotics
+
+
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+  title: Publications
+  intro: |
+    Publications: Author of 113 scientific conference articles, 17 book chapters, and 43 journal articles.
+    His work has been published in leading journals in the field of intelligent systems, including:
+    Artificial Intelligence, Expert Systems with Applications, ACM Transactions on Interactive
+    Intelligent Systems, Information Processing & Management, Biomedical Signal Processing and
+    Control and Natural Language Engineering
+  papers:
+  - title: A text classification framework for simple and effective early depression detection over social media streams
+    link: "#"
+    authors: S. G. Burdisso, M. Errecalde, M. Montes-y-Gómez.
+    conference: Expert Systems with Applications, Volume 133, 2019, Pages 182-197, Elsevier.
+
+  - title: "An efficient Particle Swarm Optimization approach to cluster short texts"
+    link: "#"
+    authors: Leticia Cagnina, Marcelo Errecalde, Diego Ingaramo and Paolo Rosso.
+    conference: Information Sciences, 265 36 - 49, Elsevier. May 2014.
+
+  - title: Measuring the Quality of Web Content using Factual Information
+    link: "#"
+    authors: Elisabeth Lex, Michael Voelske, Marcelo Errecalde, Edgardo Ferretti, Leticia Cagnina, Christopher Horn, Michael Granitzer, Benno Stein.
+    conference: Proceedings of the 2nd Joint WICOW/AIRWeb Workshop on Web Quality, 2012, ISBN = 978-1-4503-1237-0, Lyon, France, pp. 7-10, ACM, New York, NY,USA.
+
+  - title:  More publication are available here
+    link: "https://lidic.unsl.edu.ar/publicaciones"          
+
+projects:
+  title: Technological services, and Technical assistance
+
+  intro: >
+      - Lead Researcher for a project funded by the Sadosky Foundation for phase zero of R+D+i projects in ICT topics (2020).
+      - Lead of the research group for a project selected under the 2023 "Innovative Solutions for Software Challenges" call by the Sadosky Foundation.
+      - Member of the Principal Group for the High-Performance Computing Project (PCI) selected
+        by the National System of Scientific-Technological Research Infrastructures (SNIICT) in the Accelerated Calculation Projects Initiative (IPAC) – CLEMENTINA XXI (2025).
+  assignments:
+      - Lead Researcher for a project funded by the Sadosky Foundation for phase zero of R+D+i projects in ICT topics (2020).
+      - Lead of the research group for a project selected under the 2023 "Innovative Solutions for Software Challenges" call by the Sadosky Foundation.
+      - Member of the Principal Group for the High-Performance Computing Project (PCI) selected
+        by the National System of Scientific-Technological Research Infrastructures (SNIICT) in the Accelerated Calculation Projects Initiative (IPAC) – CLEMENTINA XXI (2025).
+
+
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Python & Django
+    level: 98%
+
+  - name: Javascript & jQuery
+    level: 98%
+
+  - name: Angular
+    level: 98%
+
+  - name: HTML5 & CSS
+    level: 95%
+
+  - name: Ruby on Rails
+    level: 85%
+
+  - name: Sketch & Photoshop
+    level: 60%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
